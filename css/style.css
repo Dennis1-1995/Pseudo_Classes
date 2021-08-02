@@ -1,0 +1,55 @@
+/* Deel 1: */
+
+.links {
+  margin-bottom: 2rem;
+}
+.links a {
+  margin-left: 3em;
+}
+#link-1:hover {
+  color: lightblue;
+  font-weight: 900;
+}
+#link-2:active {
+  color: red;
+  font-style: italic;
+}
+#link-3:visited {
+  color: yellow;
+}
+.text-input:focus {
+  color: green;
+  font-size: 20px;
+}
+hr {
+  margin: 5rem;
+}
+
+/* Deel 2: */
+nav {
+  border: 1px solid grey;
+  background-color: darkblue;
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  background-color: lightblue;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav li:first-child {
+  margin-left: 0;
+}
+nav li {
+  margin-left: 2em;
+}
+.currentPage {
+  background-color: #6699cc;
+}
+input:focus {
+  outline: 2px solid #0088dd;
+  border: 2px solid #0088dd;
+}
